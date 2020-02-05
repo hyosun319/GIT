@@ -1,0 +1,67 @@
+User@DESKTOP-F41JSUC MINGW64 /c/SIAT/Git (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-F41JSUC MINGW64 /c/SIAT/Git (master)
+$ git add test.txt
+
+User@DESKTOP-F41JSUC MINGW64 /c/SIAT/Git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test.txt
+
+
+User@DESKTOP-F41JSUC MINGW64 /c/SIAT/Git (master)
+$ git commint -m "add test.txt"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+User@DESKTOP-F41JSUC MINGW64 /c/SIAT/Git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test.txt
+
+
+User@DESKTOP-F41JSUC MINGW64 /c/SIAT/Git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   start.txt
+
+
+User@DESKTOP-F41JSUC MINGW64 /c/SIAT/Git (master)
+$ git add start.txt
+
+User@DESKTOP-F41JSUC MINGW64 /c/SIAT/Git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   start.txt
+        new file:   test.txt
+
+
+User@DESKTOP-F41JSUC MINGW64 /c/SIAT/Git (master)
+$ git log
+commit a0b79b7409545044ecbf308971457f5e0deed418 (HEAD -> master)
+Author: hyosun319 <hyosun0319@hanmail.net>
+Date:   Wed Feb 5 11:26:24 2020 +0900ss
+
+add start,txt

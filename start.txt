@@ -1,2 +1,7 @@
 start
+<<<<<<< HEAD
 test2
+=======
+test2
+test
+>>>>>>> version
